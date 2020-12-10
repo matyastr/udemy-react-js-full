@@ -14,7 +14,7 @@ class App extends Component {
 
   nameNameChangedHandler = (event) => {
     this.setState({
-      userName: event.target.value,
+      userName: event.target.value.length
     });
   };
 
